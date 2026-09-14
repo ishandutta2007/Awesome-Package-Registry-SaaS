@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Cloudsmith](https://cloudsmith.com/)**  
-
-  Cloud-native, fully managed multi-format package registry focused on secure distribution, upstream proxying, and enterprise features across many ecosystems.
-
-
-
-- **[GitHub Packages](https://github.com/features/packages)**  
-
-  Integrated package registry tightly coupled with GitHub repositories and Actions, supporting npm, Maven, NuGet, Docker, RubyGems, and more.
-
-
-
-- **[GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/)**  
-
-  Built-in package and container registry within GitLab, supporting multiple formats and seamless CI/CD integration.
-
-
-
-- **[AWS CodeArtifact](https://aws.amazon.com/codeartifact/)**  
-
-  Fully managed artifact repository service compatible with npm, Maven, PyPI, NuGet, and other popular package managers, with upstream proxying.
-
-
-
-- **[Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts)**  
-
-  Azure DevOps package management service supporting NuGet, npm, Maven, Python, and Universal Packages with feed views and upstream sources.
-
-
-
-- **[Packagecloud](https://packagecloud.io/)**  
-
-  Hosted package repository service supporting multiple formats with simple distribution and access control.
-
-
-
-- **[ProGet](https://inedo.com/proget)**  
-
-  Package and container management platform (self-hosted and cloud options) with vulnerability scanning, feeds, and broad format support.
-
-
-
-- **[Bytesafe](https://bytesafe.dev/)**  
-
-  Security-focused package management and supply-chain platform for private registries and dependency protection.
-
-
-
-- **[CloudRepo](https://cloudrepo.com/)**  
-
-  Managed private Maven and Python package repositories with straightforward hosting and access controls.
-
-
-
-- **[Gemfury](https://gemfury.com/)**  
-
-  Private cloud package repository supporting multiple language ecosystems with simple push and install workflows.
+| Product | Description | Pricing | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Cloudsmith](https://cloudsmith.com/)** | Cloud-native, fully managed multi-format package registry focused on secure distribution, upstream proxying, and enterprise features across many ecosystems. | Core Plan: Free<br>Pro Plan: Starts at $149/month | Core Plan: 500 MB storage, 1 GB/month download bandwidth |
+| **[GitHub Packages](https://github.com/features/packages)** | Integrated package registry tightly coupled with GitHub repositories and Actions, supporting npm, Maven, NuGet, Docker, RubyGems, and more. | Free for public packages<br>GitHub Pro: $4/user/month<br>GitHub Team: $4/user/month | GitHub Free (Private): 500 MB storage, 1 GB/month data transfer |
+| **[GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/)** | Built-in package and container registry within GitLab, supporting multiple formats and seamless CI/CD integration. | Free Tier: $0/user/month<br>GitLab Premium: $29/user/month | Free Tier: 10 GiB storage limit per project (up to 5 users/namespace) |
+| **[AWS CodeArtifact](https://aws.amazon.com/codeartifact/)** | Fully managed artifact repository service compatible with npm, Maven, PyPI, NuGet, and other popular package managers, with upstream proxying. | Pay-as-you-go:<br>$0.05 per GB-month storage<br>$0.05 per 10,000 requests | AWS Free Tier: 2 GB storage, 100,000 requests per month |
+| **[Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts)** | Azure DevOps package management service supporting NuGet, npm, Maven, Python, and Universal Packages with feed views and upstream sources. | First 2 GiB free<br>Next 2–10 GiB: $2/GiB/month | 2 GiB free storage per organization |
+| **[Packagecloud](https://packagecloud.io/)** | Hosted package repository service supporting multiple formats with simple distribution and access control. | Free Plan: $0<br>Starter Plan: Starts at $89/month | Free Plan: 2 GB storage, 10 GB/month bandwidth (public repositories) |
+| **[ProGet](https://inedo.com/proget)** | Package and container management platform (self-hosted and cloud options) with vulnerability scanning, feeds, and broad format support. | Free Edition: $0<br>Basic Plan: Starts at $2,395/year | Free Edition: Unlimited feeds & users (limited to 10 API deletes/hour) |
+| **[Bytesafe](https://bytesafe.dev/)** | Security-focused package management and supply-chain platform for private registries and dependency protection. | Cloud Plan: Starts at €99/month | 14-day free trial (Full feature access, no credit card required) |
+| **[CloudRepo](https://cloudrepo.com/)** | Managed private Maven and Python package repositories with straightforward hosting and access controls. | Starter Plan: Starts at $199/month | 14-day free trial (No credit card required) |
+| **[Gemfury](https://gemfury.com/)** | Private cloud package repository supporting multiple language ecosystems with simple push and install workflows. | Personal Plan: Starts at $9/month | Public Plan: Free for unlimited public packages |
 
 
 
